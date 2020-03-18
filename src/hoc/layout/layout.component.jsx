@@ -1,13 +1,13 @@
 import React from "react";
 
 import Aux from "../auxiliary/auxiliary";
-import Navigations from "../../components/navigations/navigations.component";
+import NavBar from "../../components/nav-bar/nav-bar.component";
 import SubNavivation from "../../components/sub-navigation/sub-navigation.component";
 
 const Layout = (props) => {
   return (
     <Aux>
-      <Navigations />
+      <NavBar />
       <SubNavivation />
       <main>
         {props.children}

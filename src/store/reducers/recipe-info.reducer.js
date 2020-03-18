@@ -19,10 +19,10 @@ const initState = {
   // actionTitle: '',
   // actionDescription: ''
 
-const informaitonReducer = (state = initState, action) => {
+const recipeInfoReducer = (state = initState, action) => {
   switch (action.type) {
     default: return state;
   }
 }
 
-export default informaitonReducer;
+export default recipeInfoReducer;

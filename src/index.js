@@ -14,7 +14,7 @@ import thunk from "redux-thunk";
 import './index.css';
 import App from './App.jsx';
 
-import informaitonReducer from "./store/reducers/information.reducer";
+import recipeInfoReducer from "./store/reducers/recipe-info.reducer";
 import generalReducer from "./store/reducers/general.reducer";
 
 //devtool variables
@@ -22,7 +22,7 @@ import generalReducer from "./store/reducers/general.reducer";
 const composeEnhancers = process.env.NODE_ENV === 'development' ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null || compose;
 
 const rootReducer = combineReducers({
-  information: informaitonReducer,
+  recipeInfo: recipeInfoReducer,
   general: generalReducer
 });
 

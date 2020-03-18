@@ -4,7 +4,6 @@ import {
 } from "react-router-dom";
 
 import General from "./containers/general/general.container";
-// import Information from "./containers/information/information.container";
 // import Auth from "./components/auth/auth.component";
 import Layout from "./hoc/layout/layout.component";
 
