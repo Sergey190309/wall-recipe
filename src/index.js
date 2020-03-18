@@ -15,7 +15,7 @@ import './index.css';
 import App from './App.jsx';
 
 import informaitonReducer from "./store/reducers/information.reducer";
-import navigationReducer from "./store/reducers/navigation.reducer";
+import generalReducer from "./store/reducers/general.reducer";
 
 //devtool variables
 // @ts-ignore
@@ -23,7 +23,7 @@ const composeEnhancers = process.env.NODE_ENV === 'development' ? window.__REDUX
 
 const rootReducer = combineReducers({
   information: informaitonReducer,
-  navigation: navigationReducer
+  general: generalReducer
 });
 
 const store = createStore(rootReducer, composeEnhancers(applyMiddleware(thunk)))
